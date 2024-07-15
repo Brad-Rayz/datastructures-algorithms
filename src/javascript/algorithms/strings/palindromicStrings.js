@@ -1,4 +1,4 @@
-//Expand around center:- TC:O(n*2) SC:O(n)
+//Expand around center:- TC:O(n*2) SC:O(1)
 
 function countPalindromicStrings(str) {
     let count = 0;
@@ -25,3 +25,6 @@ console.log(countPalindromicStrings(str));
 
 let str1 = "abc";
 console.log(countPalindromicStrings(str1));
+
+let str2 = "aaa";
+console.log(countPalindromicStrings(str2));
